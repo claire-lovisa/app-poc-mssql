@@ -1,0 +1,14 @@
+# Virtuoso files /data/db
+/data/db/*
+!/data/db/virtuoso.ini
+!/data/db/toLoad
+!/data/db/toLoad/*
+/data/files/*
+
+/data/mssql/.system/profiles/Temp
+/data/mssql/log
+
+.DS_Store
+*~
+
+docker-compose.override.yml
