@@ -46,6 +46,7 @@ services:
       DB_NAME: "PoC_DB"
       DB_USER: "sa"
       DB_PASSWORD: "ThisIsAVeryStrongPassword!"
+      BATCH_SIZE: 10
     links:
       - db:database
     volumes:
